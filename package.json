@@ -1,0 +1,23 @@
+{
+  "name": "nodetests",
+  "version": "5.0.0",
+  "description": "just a test",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKA1500/New_Node_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKA1500/New_Node_Project/issues"
+  },
+  "homepage": "https://github.com/MKA1500/New_Node_Project#readme"
+}
