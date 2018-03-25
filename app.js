@@ -1,3 +1,13 @@
+console.log('starting app.');
+
+const fs = require('fs');
+
+fs.appendFile('greetings.txt', 'Hello World!', function(err){
+  if(err){
+    console.log('Unable to write to file');
+  }
+});
+/*
 const express = require('express')
 const app = express()
 const port = 3000
@@ -25,3 +35,4 @@ app.listen(port, (err) => {
 
   console.log(`server is listening on ${port}`)
 })
+*/
