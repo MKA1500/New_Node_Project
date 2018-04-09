@@ -1,7 +1,15 @@
 console.log('starting app.js');
 const fs = require('fs');
 const os = require('os');
+const _ = require('lodash');
 const notes = require('./notes.js');
+
+// https://lodash.com/docs/4.17.5#isString
+console.log(_.isString(true));
+console.log(_.isString("true"));
+// https://lodash.com/docs/4.17.5#uniq
+var filteredArray = _.uniq(['mk', 1, 2, 'mk', 1, 3, 4]);
+console.log(filteredArray);
 
 var res = notes.addNote();
 console.log(res);
